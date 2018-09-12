@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F7C0882140FFA2005E3CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C0872140FFA2005E3CD9 /* AppDelegate.m */; };
+		04F7C08B2140FFA2005E3CD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C08A2140FFA2005E3CD9 /* ViewController.m */; };
+		04F7C08E2140FFA2005E3CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7C08C2140FFA2005E3CD9 /* Main.storyboard */; };
+		04F7C0902140FFA3005E3CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7C08F2140FFA3005E3CD9 /* Assets.xcassets */; };
+		04F7C0932140FFA3005E3CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7C0912140FFA3005E3CD9 /* LaunchScreen.storyboard */; };
+		04F7C0962140FFA3005E3CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C0952140FFA3005E3CD9 /* main.m */; };
+		04F7C0A02140FFA4005E3CD9 /* YQWeChatLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C09F2140FFA4005E3CD9 /* YQWeChatLoginDemoTests.m */; };
+		04F7C0AB2140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C0AA2140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.m */; };
+		764E9254A8DCC4123C579311 /* libPods-YQWeChatLoginDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6812E3E84C54DAF4C7090B58 /* libPods-YQWeChatLoginDemoTests.a */; };
+		BC2B73B105275FD7C4A7E31C /* libPods-YQWeChatLoginDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2058A3A4002AC87280FE151A /* libPods-YQWeChatLoginDemoUITests.a */; };
+		ED36A20D02D5EDB21C1CCA1C /* libPods-YQWeChatLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B67C12ACA9D102E3A521B5 /* libPods-YQWeChatLoginDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F7C09C2140FFA3005E3CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F7C07B2140FFA2005E3CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7C0822140FFA2005E3CD9;
+			remoteInfo = YQWeChatLoginDemo;
+		};
+		04F7C0A72140FFA4005E3CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F7C07B2140FFA2005E3CD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7C0822140FFA2005E3CD9;
+			remoteInfo = YQWeChatLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B67C12ACA9D102E3A521B5 /* libPods-YQWeChatLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQWeChatLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7C0832140FFA2005E3CD9 /* YQWeChatLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQWeChatLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7C0862140FFA2005E3CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F7C0872140FFA2005E3CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F7C0892140FFA2005E3CD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F7C08A2140FFA2005E3CD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F7C08D2140FFA2005E3CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F7C08F2140FFA3005E3CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F7C0922140FFA3005E3CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F7C0942140FFA3005E3CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7C0952140FFA3005E3CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F7C09B2140FFA3005E3CD9 /* YQWeChatLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQWeChatLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7C09F2140FFA4005E3CD9 /* YQWeChatLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQWeChatLoginDemoTests.m; sourceTree = "<group>"; };
+		04F7C0A12140FFA4005E3CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7C0A62140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQWeChatLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7C0AA2140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQWeChatLoginDemoUITests.m; sourceTree = "<group>"; };
+		04F7C0AC2140FFA4005E3CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F7C0B821410189005E3CD9 /* weixinInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weixinInfo.h; sourceTree = "<group>"; };
+		1BA774C1A0F2FCB67063CBC2 /* Pods-YQWeChatLoginDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQWeChatLoginDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQWeChatLoginDemoTests/Pods-YQWeChatLoginDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2058A3A4002AC87280FE151A /* libPods-YQWeChatLoginDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQWeChatLoginDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AC0A3D014638376673BF57 /* Pods-YQWeChatLoginDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQWeChatLoginDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQWeChatLoginDemoTests/Pods-YQWeChatLoginDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57E576910BFCB53E43808536 /* Pods-YQWeChatLoginDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQWeChatLoginDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQWeChatLoginDemoUITests/Pods-YQWeChatLoginDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6812E3E84C54DAF4C7090B58 /* libPods-YQWeChatLoginDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQWeChatLoginDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD61086E0C0CD93100C1B45 /* Pods-YQWeChatLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQWeChatLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQWeChatLoginDemo/Pods-YQWeChatLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7EA937E904262E681A02C5 /* Pods-YQWeChatLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQWeChatLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQWeChatLoginDemo/Pods-YQWeChatLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B05B24951846DEB6D4910405 /* Pods-YQWeChatLoginDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQWeChatLoginDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQWeChatLoginDemoUITests/Pods-YQWeChatLoginDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F7C0802140FFA2005E3CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED36A20D02D5EDB21C1CCA1C /* libPods-YQWeChatLoginDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7C0982140FFA3005E3CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764E9254A8DCC4123C579311 /* libPods-YQWeChatLoginDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7C0A32140FFA4005E3CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B73B105275FD7C4A7E31C /* libPods-YQWeChatLoginDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F7C07A2140FFA2005E3CD9 = {
+			isa = PBXGroup;
+			children = (
+				04F7C0852140FFA2005E3CD9 /* YQWeChatLoginDemo */,
+				04F7C09E2140FFA4005E3CD9 /* YQWeChatLoginDemoTests */,
+				04F7C0A92140FFA4005E3CD9 /* YQWeChatLoginDemoUITests */,
+				04F7C0842140FFA2005E3CD9 /* Products */,
+				299A949F86C0695E28EAB035 /* Pods */,
+				D3E0BEA01152D8ECE5C438EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F7C0842140FFA2005E3CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F7C0832140FFA2005E3CD9 /* YQWeChatLoginDemo.app */,
+				04F7C09B2140FFA3005E3CD9 /* YQWeChatLoginDemoTests.xctest */,
+				04F7C0A62140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F7C0852140FFA2005E3CD9 /* YQWeChatLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04F7C0862140FFA2005E3CD9 /* AppDelegate.h */,
+				04F7C0872140FFA2005E3CD9 /* AppDelegate.m */,
+				04F7C0892140FFA2005E3CD9 /* ViewController.h */,
+				04F7C08A2140FFA2005E3CD9 /* ViewController.m */,
+				04F7C08C2140FFA2005E3CD9 /* Main.storyboard */,
+				04F7C08F2140FFA3005E3CD9 /* Assets.xcassets */,
+				04F7C0912140FFA3005E3CD9 /* LaunchScreen.storyboard */,
+				04F7C0942140FFA3005E3CD9 /* Info.plist */,
+				04F7C0952140FFA3005E3CD9 /* main.m */,
+				04F7C0B821410189005E3CD9 /* weixinInfo.h */,
+			);
+			path = YQWeChatLoginDemo;
+			sourceTree = "<group>";
+		};
+		04F7C09E2140FFA4005E3CD9 /* YQWeChatLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F7C09F2140FFA4005E3CD9 /* YQWeChatLoginDemoTests.m */,
+				04F7C0A12140FFA4005E3CD9 /* Info.plist */,
+			);
+			path = YQWeChatLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		04F7C0A92140FFA4005E3CD9 /* YQWeChatLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F7C0AA2140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.m */,
+				04F7C0AC2140FFA4005E3CD9 /* Info.plist */,
+			);
+			path = YQWeChatLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		299A949F86C0695E28EAB035 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AD61086E0C0CD93100C1B45 /* Pods-YQWeChatLoginDemo.debug.xcconfig */,
+				9E7EA937E904262E681A02C5 /* Pods-YQWeChatLoginDemo.release.xcconfig */,
+				57AC0A3D014638376673BF57 /* Pods-YQWeChatLoginDemoTests.debug.xcconfig */,
+				1BA774C1A0F2FCB67063CBC2 /* Pods-YQWeChatLoginDemoTests.release.xcconfig */,
+				57E576910BFCB53E43808536 /* Pods-YQWeChatLoginDemoUITests.debug.xcconfig */,
+				B05B24951846DEB6D4910405 /* Pods-YQWeChatLoginDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3E0BEA01152D8ECE5C438EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B67C12ACA9D102E3A521B5 /* libPods-YQWeChatLoginDemo.a */,
+				6812E3E84C54DAF4C7090B58 /* libPods-YQWeChatLoginDemoTests.a */,
+				2058A3A4002AC87280FE151A /* libPods-YQWeChatLoginDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F7C0822140FFA2005E3CD9 /* YQWeChatLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7C0AF2140FFA4005E3CD9 /* Build configuration list for PBXNativeTarget "YQWeChatLoginDemo" */;
+			buildPhases = (
+				D57A10021D9B3DD21626C0EA /* [CP] Check Pods Manifest.lock */,
+				04F7C07F2140FFA2005E3CD9 /* Sources */,
+				04F7C0802140FFA2005E3CD9 /* Frameworks */,
+				04F7C0812140FFA2005E3CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQWeChatLoginDemo;
+			productName = YQWeChatLoginDemo;
+			productReference = 04F7C0832140FFA2005E3CD9 /* YQWeChatLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F7C09A2140FFA3005E3CD9 /* YQWeChatLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7C0B22140FFA4005E3CD9 /* Build configuration list for PBXNativeTarget "YQWeChatLoginDemoTests" */;
+			buildPhases = (
+				42E83CDDBF5F0AE95CAA322B /* [CP] Check Pods Manifest.lock */,
+				04F7C0972140FFA3005E3CD9 /* Sources */,
+				04F7C0982140FFA3005E3CD9 /* Frameworks */,
+				04F7C0992140FFA3005E3CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F7C09D2140FFA3005E3CD9 /* PBXTargetDependency */,
+			);
+			name = YQWeChatLoginDemoTests;
+			productName = YQWeChatLoginDemoTests;
+			productReference = 04F7C09B2140FFA3005E3CD9 /* YQWeChatLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F7C0A52140FFA4005E3CD9 /* YQWeChatLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7C0B52140FFA4005E3CD9 /* Build configuration list for PBXNativeTarget "YQWeChatLoginDemoUITests" */;
+			buildPhases = (
+				99E71DE71F3E9C5EFD036100 /* [CP] Check Pods Manifest.lock */,
+				04F7C0A22140FFA4005E3CD9 /* Sources */,
+				04F7C0A32140FFA4005E3CD9 /* Frameworks */,
+				04F7C0A42140FFA4005E3CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F7C0A82140FFA4005E3CD9 /* PBXTargetDependency */,
+			);
+			name = YQWeChatLoginDemoUITests;
+			productName = YQWeChatLoginDemoUITests;
+			productReference = 04F7C0A62140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F7C07B2140FFA2005E3CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DaveYou;
+				TargetAttributes = {
+					04F7C0822140FFA2005E3CD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04F7C09A2140FFA3005E3CD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04F7C0822140FFA2005E3CD9;
+					};
+					04F7C0A52140FFA4005E3CD9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04F7C0822140FFA2005E3CD9;
+					};
+				};
+			};
+			buildConfigurationList = 04F7C07E2140FFA2005E3CD9 /* Build configuration list for PBXProject "YQWeChatLoginDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F7C07A2140FFA2005E3CD9;
+			productRefGroup = 04F7C0842140FFA2005E3CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F7C0822140FFA2005E3CD9 /* YQWeChatLoginDemo */,
+				04F7C09A2140FFA3005E3CD9 /* YQWeChatLoginDemoTests */,
+				04F7C0A52140FFA4005E3CD9 /* YQWeChatLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F7C0812140FFA2005E3CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7C0932140FFA3005E3CD9 /* LaunchScreen.storyboard in Resources */,
+				04F7C0902140FFA3005E3CD9 /* Assets.xcassets in Resources */,
+				04F7C08E2140FFA2005E3CD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7C0992140FFA3005E3CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7C0A42140FFA4005E3CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E83CDDBF5F0AE95CAA322B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQWeChatLoginDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E71DE71F3E9C5EFD036100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQWeChatLoginDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57A10021D9B3DD21626C0EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQWeChatLoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F7C07F2140FFA2005E3CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7C08B2140FFA2005E3CD9 /* ViewController.m in Sources */,
+				04F7C0962140FFA3005E3CD9 /* main.m in Sources */,
+				04F7C0882140FFA2005E3CD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7C0972140FFA3005E3CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7C0A02140FFA4005E3CD9 /* YQWeChatLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F7C0A22140FFA4005E3CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7C0AB2140FFA4005E3CD9 /* YQWeChatLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F7C09D2140FFA3005E3CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F7C0822140FFA2005E3CD9 /* YQWeChatLoginDemo */;
+			targetProxy = 04F7C09C2140FFA3005E3CD9 /* PBXContainerItemProxy */;
+		};
+		04F7C0A82140FFA4005E3CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F7C0822140FFA2005E3CD9 /* YQWeChatLoginDemo */;
+			targetProxy = 04F7C0A72140FFA4005E3CD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F7C08C2140FFA2005E3CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F7C08D2140FFA2005E3CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F7C0912140FFA3005E3CD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F7C0922140FFA3005E3CD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F7C0AD2140FFA4005E3CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F7C0AE2140FFA4005E3CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F7C0B02140FFA4005E3CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD61086E0C0CD93100C1B45 /* Pods-YQWeChatLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				INFOPLIST_FILE = YQWeChatLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqiang.you.YQWeChatLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F7C0B12140FFA4005E3CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7EA937E904262E681A02C5 /* Pods-YQWeChatLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				INFOPLIST_FILE = YQWeChatLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqiang.you.YQWeChatLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F7C0B32140FFA4005E3CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AC0A3D014638376673BF57 /* Pods-YQWeChatLoginDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				INFOPLIST_FILE = YQWeChatLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqiang.you.YQWeChatLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQWeChatLoginDemo.app/YQWeChatLoginDemo";
+			};
+			name = Debug;
+		};
+		04F7C0B42140FFA4005E3CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA774C1A0F2FCB67063CBC2 /* Pods-YQWeChatLoginDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				INFOPLIST_FILE = YQWeChatLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqiang.you.YQWeChatLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQWeChatLoginDemo.app/YQWeChatLoginDemo";
+			};
+			name = Release;
+		};
+		04F7C0B62140FFA4005E3CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E576910BFCB53E43808536 /* Pods-YQWeChatLoginDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				INFOPLIST_FILE = YQWeChatLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqiang.you.YQWeChatLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQWeChatLoginDemo;
+			};
+			name = Debug;
+		};
+		04F7C0B72140FFA4005E3CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05B24951846DEB6D4910405 /* Pods-YQWeChatLoginDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				INFOPLIST_FILE = YQWeChatLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongqiang.you.YQWeChatLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQWeChatLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F7C07E2140FFA2005E3CD9 /* Build configuration list for PBXProject "YQWeChatLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7C0AD2140FFA4005E3CD9 /* Debug */,
+				04F7C0AE2140FFA4005E3CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F7C0AF2140FFA4005E3CD9 /* Build configuration list for PBXNativeTarget "YQWeChatLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7C0B02140FFA4005E3CD9 /* Debug */,
+				04F7C0B12140FFA4005E3CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F7C0B22140FFA4005E3CD9 /* Build configuration list for PBXNativeTarget "YQWeChatLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7C0B32140FFA4005E3CD9 /* Debug */,
+				04F7C0B42140FFA4005E3CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F7C0B52140FFA4005E3CD9 /* Build configuration list for PBXNativeTarget "YQWeChatLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7C0B62140FFA4005E3CD9 /* Debug */,
+				04F7C0B72140FFA4005E3CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F7C07B2140FFA2005E3CD9 /* Project object */;
+}
